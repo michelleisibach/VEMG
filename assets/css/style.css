@@ -28,7 +28,7 @@ body {
 }
 
 .title {
-    color: yellow;
+    color: gold;
     margin-left: 25%;
     font-family: 'Bebas Neue', cursive;
     font-size: 150px;
@@ -54,4 +54,18 @@ body {
 .moviepic {
     width: 100%;
     box-shadow: 0px 0px 8px 8px white inset;
+}
+
+.navigationbar {
+    color: gold;
+    font-size: large;
+}
+
+.nav-link {
+    color: gold;
+    font-size: 30px;
+}
+
+.navbar-nav {
+    margin-left: 25%;
 }
