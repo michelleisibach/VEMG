@@ -18,27 +18,27 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <nav class="navigationbar navbar-expand-sm navbar-fixed">
 
         <!-- Links -->
-        <ul class="navbar-nav">
+        <ul class="navbar-nav navbar-fixed">
             <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="<?php echo base_url(); ?>/index.php/HomeController">Home</a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="#">Fleet</a>
+                <a class="nav-link" href="<?php echo base_url(); ?>/index.php/FleetController">Fleet</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="<?php echo base_url(); ?>/index.php/AboutusController">About Us</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="<?php echo base_url(); ?>/index.php/ContactController">Contact</a>
             </li>
-            <li><a class="nav-link" href="#">Reserve Seat</a></li>
+            <li><a class="nav-link" href="<?php echo base_url(); ?>/index.php/ReserveseatController">Reserve Seat</a></li>
             <ul class="navbar-nav  navbar-right">
                 <li>
-                    <a class="nav-link" href="#">Login</a>
+                    <a class="nav-link" href="<?php echo base_url(); ?>/index.php/LoginController">Login</a>
                 </li>
                 <li>
-                    <p class="nav-link"><?php echo gmdate("d-n-Y\ H:i"); ?></p>
+                    <p class="nav-link"><?php echo gmdate("d.n.Y\ H:i"); ?></p>
                 </li>
             </ul>
         </ul>
@@ -50,9 +50,50 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <div class="row">
             <div class="col-2"> </div>
             <div class="col-8">
-                <h1 class="title"> VIP EMG AIR </h1>
+                <h1 class="title"> VIP EMG AIR</h1>
+
                 <br>
-                    atse
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br> <br>
+                <br>
+                <br> <br>
+                <br>
+                <br> <br>
+                <br>
+                <br> <br>
+                <br>
+                <br> <br>
+                <br>
+                <br> <br>
+                <br>
+                <br> <br>
+                <br>
+                <br> <br>
+                <br>
+                <br> <br>
+                <br>
+                <br> <br>
+                <br>
+                <br>
+
             </div>
             <div class="col-2"></div>
         </div>
