@@ -8,8 +8,7 @@ class Home_model extends CI_Model{
     }
     
     function getAllMovies(){
-        $query = $this->db->query('SELECT * FROM filme');
-        return $query->result();
+
     }
 
 
