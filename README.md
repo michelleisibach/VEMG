@@ -19,3 +19,5 @@ The VIP EMG AIR Operation is here to get VIP Flights when you are free. You can 
 * Pilot Ranking
 
 # UPDATES
+
+### 04.12.2019 --> Created first look of Website
