@@ -5,15 +5,17 @@ The VIP EMG AIR Operation is here to get VIP Flights when you are free. You can 
 
 ## Must have
 
-⋅⋅* Userlogin
-⋅⋅* Send Flightplan to User via E-Mail
-⋅⋅* Calender to mark the free days
-⋅⋅* List of Aircrafts with description and Checklist
-⋅⋅* RealTime data from the Aircrafts
-⋅⋅* UTC Time
+* Userlogin
+* Send Flightplan to User via E-Mail
+* Calender to mark the free days
+* List of Aircrafts with description and Checklist
+* RealTime data from the Aircrafts
+* UTC Time
 
 ## Nice to have
 
 
-⋅⋅* Event Training
-⋅⋅* Pilot Ranking
+* Event Training
+* Pilot Ranking
+
+# UPDATES
