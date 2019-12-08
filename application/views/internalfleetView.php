@@ -25,20 +25,17 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <a class="nav-link" href="<?php echo base_url(); ?>/index.php/HomeController">Home</a>
                 </li>
                 <li class="nav-item navitem">
-                    <a class="nav-link" href="<?php echo base_url(); ?>/index.php/FleetController">Fleet</a>
+                    <a class="nav-link" href="<?php echo base_url(); ?>/index.php/CalendarController">Calendar</a>
                 </li>
                 <li class="nav-item navitem">
-                    <a class="nav-link" href="<?php echo base_url(); ?>/index.php/AboutusController">About</a>
+                    <a class="nav-link" href="<?php echo base_url(); ?>/index.php/InternalfleetController">Fleet</a>
                 </li>
                 <li class="nav-item navitem">
-                    <a class="nav-link" href="<?php echo base_url(); ?>/index.php/ContactController">Contact</a>
+                    <a class="nav-link" href="<?php echo base_url(); ?>/index.php/FlyController">Fly</a>
                 </li>
-                <li class="nav-item navitem">
-                    <a class="nav-link" href="<?php echo base_url(); ?>/index.php/ReserveseatController">Tickets</a>
-                </li>
-                <ul class="navbar-nav  navbar-right navbarright">
+                <ul class="navbar-nav  navbar-right navbarrightinternal">
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo base_url(); ?>/index.php/LoginController">Login</a>
+                        <a class="nav-link" href="<?php echo base_url(); ?>/index.php/LoginController">Logout</a>
                     </li>
                     <li>
                         <p class="nav-link"><?php echo gmdate("d.n.Y\ H:i"); ?></p>
@@ -50,23 +47,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <div class="row">
             <div class="col-2"> </div>
             <div class="col-8">
-                <br>
-                <br>
-                <br>
-                <form>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Username</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">      
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <button type="submit" class="btn btn-primary" href="<?php echo base_url();?>index.php/InternalhomeController">Submit</button>
-                    <br>
-                    <a href="<?php echo base_url();?>index.php/InternalhomeController"> Login </a>
-                </form>
-            </div>
             <div class="col-2"></div>
         </div>
     </div>

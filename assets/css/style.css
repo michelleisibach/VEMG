@@ -45,3 +45,8 @@ body {
 .navitem {
     margin-left: 10px;
 }
+
+.navbarrightinternal {
+    margin-left: 90%;
+    font-size: 20px;
+}
