@@ -50,3 +50,19 @@ body {
     margin-left: 90%;
     font-size: 20px;
 }
+
+.aircraftdisplay {
+    border-color: rgb(110, 110, 110);
+    border-style: solid none none none;
+    border-radius: 2px;
+}
+
+.aircraftfact {
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.aircraftpic {
+    margin-top: 5px;
+    width: 100%;
+}

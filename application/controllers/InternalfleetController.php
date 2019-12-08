@@ -12,7 +12,9 @@ class InternalfleetController extends CI_Controller {
 
 	public function index()
 	{
-        $this->load->view('internalfleetView');
+        $data['result'] = $this->Internalfleet_model->getAllAircraftsExtended();
+        $this->load->view('internalfleetView', $data);
+        $this->load->helper('url');
     }  
 
 

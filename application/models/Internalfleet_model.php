@@ -7,5 +7,10 @@ class Internalfleet_model extends CI_Model
     {
         $this->load->database();
     }
+
+    function getAllAircraftsExtended(){
+        $query = $this->db->query('SELECT * FROM aircrafts ORDER BY pax ASC');
+        return $query->result();
+    }
 }
 

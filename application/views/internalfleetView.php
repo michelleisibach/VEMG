@@ -47,9 +47,35 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <div class="row">
             <div class="col-2"> </div>
             <div class="col-8">
-            <div class="col-2"></div>
+                <br>
+                <br>
+                <h2> Fleet </h2>
+                <br>
+                <hr />
+                <?php foreach ($result as $aircraft) { ?>
+                    <div class="aircraftdisplay">
+                        <div class="row">
+                            <div class="col-5 aircraftfact">
+                                <div>Aircraft: <?php echo $aircraft->aircraftname; ?></div>
+                                <div>Registration: <?php echo $aircraft->registration; ?> </div>
+                                <div>Max PAX: <?php echo $aircraft->pax; ?> </div>
+                                <div>Max Alt: <?php echo $aircraft->alt; ?> ft</div>
+                                <div>Actual Fuel: <?php echo $aircraft->fuel; ?> lbs </div>
+                                <div>Parking: <?php echo $aircraft->parking; ?> </div>
+                                <div>Airport: <?php echo $aircraft->airporticao; ?> </div>
+                            </div>
+                            <div class="col-5 aircraftpic">
+                                <div><img src="<?php echo base_url(); ?>assets/pics/<?php echo $aircraft->img ?>" style="width: 100%;"> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                <?php } ?>
+
+
+                <div class="col-2"></div>
+            </div>
         </div>
-    </div>
 </body>
 
 </html>
