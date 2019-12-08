@@ -1,19 +1,15 @@
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: white;
     font-family: 'Sulphur Point', sans-serif;
 }
 
 .col-2 {
-    background-color: #1C1C1C;
+    background-color: white;
 }
 
 .col-8 {
-    background-color: #1C1C1C;
-    color: gold;
-}
-
-.movieboxreserve {
-    margin-top: 5px;
+    background-color: white;
+    color: black;
 }
 
 .title {
@@ -21,20 +17,31 @@ body {
     margin-left: 25%;
     font-family: 'Bebas Neue', cursive;
     font-size: 150px;
-    text-shadow: 3px 3px 2px gray;
+    text-shadow: 3px 3px 2px rgb(128, 128, 128);
 }
 
 .navigationbar {
     color: gold;
     font-size: large;
+    background-color: rgb(49, 47, 48);
 }
 
 .nav-link {
     color: gold;
-    font-size: 30px;
+    margin-top: 15px;
     font-family: 'Sulphur Point', sans-serif;
 }
 
-.navbar-nav {
-    margin-left: 19%;
+.navbarmiddle {
+    margin-left: 25%;
+    font-size: 40px;
+}
+
+.navbarright {
+    margin-left: 50%;
+    font-size: 20px;
+}
+
+.navitem {
+    margin-left: 10px;
 }
