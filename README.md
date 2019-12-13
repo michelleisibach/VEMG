@@ -20,4 +20,5 @@ The VIP EMG AIR Operation is here to get VIP Flights when you are free. You can 
 
 # UPDATES
 
+### 08.12.2019 --> Created all Sites(no Design), Internal Fleet view Finished
 ### 04.12.2019 --> Created first look of Website
