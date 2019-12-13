@@ -56,19 +56,45 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <form>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Username</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">      
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Password</label>
                         <input type="password" class="form-control" id="exampleInputPassword1">
                     </div>
-                    <button type="submit" class="btn btn-primary" href="<?php echo base_url();?>index.php/InternalhomeController">Submit</button>
+                    <button type="submit" class="btn btn-primary" href="<?php echo base_url(); ?>index.php/InternalhomeController">Submit</button>
                     <br>
-                    <a href="<?php echo base_url();?>index.php/InternalhomeController"> Login </a>
+                    <a href="<?php echo base_url(); ?>index.php/InternalhomeController"> Login </a>
                 </form>
             </div>
             <div class="col-2"></div>
         </div>
+    </div>
+
+    <?php
+    if (!empty($success_msg)) {
+        echo '<p class="status-msg success">' . $success_msg . '</p>';
+    } elseif (!empty($error_msg)) {
+        echo '<p class="status-msg error">' . $error_msg . '</p>';
+    }
+    ?>
+
+    <!-- Login form -->
+    <div class="regisFrm">
+        <form action="" method="post">
+            <div class="form-group">
+                <input type="email" name="email" placeholder="EMAIL" required="">
+                <?php echo form_error('email', '<p class="help-block">', '</p>'); ?>
+            </div>
+            <div class="form-group">
+                <input type="password" name="password" placeholder="PASSWORD" required="">
+                <?php echo form_error('password', '<p class="help-block">', '</p>'); ?>
+            </div>
+            <div class="send-button">
+                <input type="submit" name="loginSubmit" value="LOGIN">
+            </div>
+        </form>
+        <p>Don't have an account? <a href="<?php echo base_url('users/registration'); ?>">Register</a></p>
     </div>
 </body>
 
